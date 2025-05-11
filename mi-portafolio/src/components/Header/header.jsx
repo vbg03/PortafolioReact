@@ -3,7 +3,6 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import "../../App.css"; // ✅ Ruta correcta desde Header.jsx ubicado en /components/Header
 
-
 function Header() {
   const headerRef = useRef();
   const navRef = useRef();
